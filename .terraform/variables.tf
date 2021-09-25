@@ -7,3 +7,8 @@ variable "aws_region" {
   type    = string
   default = "ap-southeast-2"
 }
+
+variable "env" {
+  type    = string
+  default = "dev"
+}
