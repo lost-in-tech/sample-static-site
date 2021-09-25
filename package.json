@@ -1,0 +1,15 @@
+{
+  "name": "sample-static-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lost-in-tech/sample-static-site.git",
+  "author": "Mohammad Ruhul Amin <mruhul@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
